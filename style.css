@@ -148,6 +148,42 @@ header {
     font-size: 16px;
     color: #000000;
 }
+.profile {
+    background-color: #eceff1;
+}
+.pro-container {
+    width: 1024px;
+    margin: 0 auto;
+}
+.pro-st {
+    padding: 30px 0 90px 0;
+}
+.pro-left {
+    width: 50%;
+    float: left;
+}
+.pro-img {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-image: url(img/my-icon.jpg);
+}
+.pro-right {
+    width: 50%;
+    float: right;
+}
+.pro-title:first-child {
+    margin-top: 0;
+}
+.pro-title {
+    margin: 20px 0 5px 0;
+    font-size: 20px;
+}
+.pro-text {
+    font-size: 16px;
+    color: #000000;
+}
 footer {
     width: 100%;
     height: 60px;
